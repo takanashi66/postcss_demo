@@ -1,0 +1,8 @@
+@custom-media --mq_mob screen and (max-width:480px);
+@custom-media --mq_tab screen and (max-width:980px);
+
+:root {
+  --color-red: #f00;
+  --color-green: #0f0;
+  --color-blue: #00f;
+}

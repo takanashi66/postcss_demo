@@ -1,0 +1,49 @@
+@import "base/var";
+
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1{
+	font-size: calc(5*10)px;
+	color: var(--color-red);
+	
+	& strong{
+		color: var(--color-green);
+	}
+	
+	@media (--mq_mob) {
+	 	color: var(--color-blue);
+	}
+}
+
+h2{
+	font-size: calc(4*10)px;
+	color: var(--color-green);
+	
+	& strong{
+		color: var(--color-blue);
+	}
+	
+	@media (--mq_mob) {
+	 	color: var(--color-red);
+	}
+}
+
+h3{
+	font-size: calc(3*10)px;
+	color: var(--color-blue);
+	
+	& strong{
+		color: var(--color-red);
+	}
+	
+	@media (--mq_tab) {
+	 	color: var(--color-red);
+	}
+}
+
