@@ -24,6 +24,7 @@ gulp.task('postcss', function(){
 	.pipe(postcss([
 		require('postcss-import'),
 		require('postcss-calc'),
+		require('postcss-selector-matches'),
 		require('postcss-custom-properties'),
 		require('postcss-nesting'),
 		require('autoprefixer'),

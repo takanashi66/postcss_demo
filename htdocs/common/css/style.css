@@ -34,6 +34,9 @@ h3{
 h3 strong{
 	color: #f00;
 }
+li a, li i{
+	color: #f00;
+}
 @media screen and (max-width:480px){
 	h1{
 		color: #00f;
