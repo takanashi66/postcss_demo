@@ -37,7 +37,7 @@ npm install
 project/
 	├ htdocs/
 	│		├ common/
-	│		│ 	├ post/
+	│		│ 	├ postcss/
 	│		│ 	└ css/
 	│		└index.html
 	│
